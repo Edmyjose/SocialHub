@@ -1,0 +1,192 @@
+<!--
+  ~ Copyright (c) 2026. EJS Studios. Todos los derechos reservados.
+  ~ Este código fuente es propiedad de EJS Studios y está protegido por las leyes de derechos de autor.
+  ~ No se permite la copia, distribución, modificación o uso de este código fuente, total o parcialmente, sin
+  ~ el consentimiento previo y por escrito de EJS Studios.
+  ~
+  ~ Cualquier uso no autorizado de este código fuente será perseguido legalmente según las leyes aplicables.
+  ~
+  ~ Para obtener una licencia de uso, contacta a: info@ejsstudios.com
+  -->
+
+<resources>
+    <string name="app_name">SocialHub AI</string>
+
+    <string name="facebook_app_id">1106970931502690</string>
+    <string name="fb_login_protocol_scheme">fb1106970931502690</string>
+    <string name="facebook_client_token">658093b7491e632dbd17473d2284d8ee</string>
+    <string name="web_client_id" translatable="false">983603226115-uode1lj44gnf3785qb4k6i00ejlr95vq.apps.googleusercontent.com</string>
+
+    <string name="reddit_client_id">Bshv30z_I6rV1uYQ3-L_Sw</string>
+    <string name="reddit_redirect_uri">socialhub://reddit-auth</string>
+
+    <string name="default_notification_channel_id" translatable="false">default_notification_channel_id</string>
+
+
+    <!-- Error Messages -->
+    <string name="lbl_error_unknow">Unknown error occurred</string>
+    <string name="lbl_error_unknow_type">Unknown Error</string>
+    <string name="lbl_error_detected">Error Detected</string>
+    <string name="lbl_error_type">Error Type</string>
+    <string name="lbl_message">Message</string>
+    <string name="lbl_delete">Clear Data</string>
+    <string name="lbl_delete_restart">Clear Data &amp; Restart</string>
+    <string name="lbl_close">Close</string>
+    <string name="lbl_error_delete">Error clearing data</string>
+
+    <string name="error_validation_invalid_timezone">Zona horaria inválida</string>
+    <string name="error_validation_invalid_coordinates">Coordenadas inválidas</string>
+    <string name="error_validation_invalid_date">Fecha inválida</string>
+    <string name="error_validation_invalid_time">Hora inválida</string>
+    <string name="error_validation_required_field">Este campo es obligatorio</string>
+    <string name="error_network">Error de red</string>
+    <string name="error_network_unavailable">Red no disponible</string>
+    <string name="error_network_timeout">Tiempo de espera de red agotado</string>
+    <string name="error_server_unreachable">Servidor no alcanzable</string>
+    <string name="error_ai_service">Error del servicio de IA</string>
+    <string name="error_ai_service_unavailable">Servicio de IA no disponible</string>
+    <string name="error_ai_rate_limit">Límite de peticiones de IA excedido</string>
+    <string name="error_ai_cost_limit">Límite de costo de IA alcanzado</string>
+    <string name="error_ai_invalid_response">Respuesta de IA inválida</string>
+    <string name="error_ai_empty_response">La IA devolvió una respuesta vacía</string>
+    <string name="error_ai_server_busy">El servidor de IA está ocupado</string>
+    <string name="error_ai_unknown_engine">Motor de IA desconocido</string>
+    <string name="error_subscription_required">Se requiere una suscripción PRO o AGENCY</string>
+    <string name="error_subscription_expired">Suscripción expirada</string>
+    <string name="error_purchase_failed">Error en la compra</string>
+    <string name="error_restore_failed">Error al restaurar compras</string>
+    <string name="error_auth_failed">Autenticación fallida</string>
+    <string name="error_user_not_found">Usuario no encontrado</string>
+    <string name="error_invalid_credentials">Credenciales inválidas</string>
+    <string name="error_email_exists">El correo ya está registrado</string>
+    <string name="error_content_generation">Error al generar contenido</string>
+    <string name="error_page_data_incomplete">Datos de la página incompletos</string>
+    <string name="error_context_data_incomplete">Contexto de IA incompleto</string>
+    <string name="error_database_connection">Error de conexión a la base de datos</string>
+    <string name="error_database_query">Error en la consulta a la base de datos</string>
+    <string name="error_database_not_found">Registro no encontrado en la base de datos</string>
+    <string name="error_file_not_found">Archivo no encontrado</string>
+    <string name="error_file_read">Error al leer el archivo</string>
+    <string name="error_file_write">Error al escribir el archivo</string>
+    <string name="error_file_too_large">El archivo es demasiado grande</string>
+    <string name="error_unknown">Error desconocido</string>
+    <string name="error_general">Ocurrió un error general</string>
+    <string name="error_not_implemented">Funcionalidad no implementada</string>
+    <string name="error_permission_denied">Permiso denegado</string>
+    <string name="error_timeout">Tiempo de espera agotado</string>
+    <string name="error_title_warning">Advertencia</string>
+    <string name="error_title_attention">Atención</string>
+    <string name="error_title_info">Información</string>
+    <string name="button_retry">Reintentar</string>
+    <string name="dialog_ok">Aceptar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="error_button_restart">Reiniciar App</string>
+    <string name="lbl_copy_error">Copiar Error</string>
+    <string name="error_button_delete_data">Borrar Datos y Reiniciar</string>
+    <string name="error_button_close">Cerrar</string>
+    <string name="msg_operation_success">Operación exitosa</string>
+    <string name="lbl_copied_to_clipboard">Copiado al portapapeles</string>
+    <string name="lbl_integrity_error_msg">Error de integridad en la base de datos. Se requiere reiniciar la app.</string>
+    <string name="lbl_integrity_error">Error de Integridad</string>
+
+
+    <!-- Notification Channels -->
+    <string name="lbl_channel_general_name">General</string>
+    <string name="lbl_channel_general_desc">General app notifications.</string>
+    <string name="lbl_channel_updates_name">Updates</string>
+    <string name="lbl_channel_updates_desc">Notifications about new versions and features.</string>
+    <string name="lbl_channel_notification_name">Notifications</string>
+    <string name="lbl_channel_notification_desc">Channel for general notifications.</string>
+    <string name="lbl_channel_notification_update_name">App Updates</string>
+    <string name="lbl_channel_notification_update_desc">Channel for app update notifications.</string>
+    <string name="lbl_channel_notification_reminder_name">Reminders</string>
+    <string name="lbl_channel_notification_reminder_desc">Channel for reminder notifications.</string>
+
+    <!-- Update Messages -->
+    <string name="lbl_mandatory_update">Mandatory Update</string>
+    <string name="lbl_normal_update">Update Available</string>
+    <string name="lbl_update_mandatory_content">A critical update is required to continue using the app. Please update now.</string>
+    <string name="lbl_update_normal_content">A new version is available with improvements and new features. Update now!</string>
+
+    <!-- Permission Messages -->
+    <string name="lbl_permission_required">Permission Required</string>
+    <string name="lbl_permissions_required">This app requires certain permissions to function properly. Please grant the requested permissions.</string>
+    <string name="lbl_write_external_storage">Storage permission is required to save and access your photos and files.</string>
+    <string name="lbl_access_fine_location">Location permission is required to provide location-based features.</string>
+    <string name="lbl_post_notifications">Notification permission is required to keep you updated with important information.</string>
+    <string name="lbl_generic_permission">This permission is required for the app to function properly.</string>
+    <string name="lbl_permission_denied">Permission Denied</string>
+    <string name="lbl_open_settings_message">This permission is required for the app to work properly. Please enable it in the app settings.</string>
+    <string name="lbl_open_settings">Open Settings</string>
+
+
+    <!-- Dialogs -->
+    <string name="lbl_update_title">Update Available</string>
+    <string name="lbl_update_message">A new version of the app is available. Update now for the latest features and improvements.</string>
+    <string name="lbl_update">Update</string>
+    <string name="lbl_later">Later</string>
+    <string name="lbl_Ok">OK</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_retry">Retry</string>
+    <string name="lbl_allow">Allow</string>
+    <string name="lbl_attention">Attention</string>
+
+    <string name="lbl_press_again_to_exit">Press again to exit</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_social_hub">Social Hub</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Reference Images Tab -->
+    <string name="lbl_reference_media_title">Imágenes de Referencia</string>
+    <string name="lbl_optional_max_images">(opcional, máximo 10 archivos)</string>
+    <string name="lbl_drop_media_hint">Arrastra archivos aquí o haz clic para seleccionar</string>
+    <string name="btn_select_images">+ Seleccionar Imágenes</string>
+    <string name="lbl_uploaded_media">Archivos Subidos (%d/10)</string>
+    <string name="btn_add_more">+ Agregar Más</string>
+    <string name="tab_images">Imágenes</string>
+    <string name="tab_videos">Videos</string>
+    <string name="hint_media_context">Aquí se debe escribir el contexto de la imagen</string>
+
+    <!-- Social Post Types -->
+    <string name="post_type_text">Texto Plano</string>
+    <string name="post_type_image">Imágenes</string>
+    <string name="post_type_video">Vídeos</string>
+    <string name="post_type_reels">Reels</string>
+    <string name="post_type_story">Historias (Stories)</string>
+    <string name="post_type_link">Enlaces</string>
+    <string name="post_type_carousel">Carruseles / Álbumes</string>
+    <string name="post_type_thread">Hilos (Threads)</string>
+    <string name="post_type_poll">Encuestas</string>
+    <string name="post_type_gif">GIFs</string>
+    <string name="post_type_discussion">Texto / Discusión</string>
+    <string name="post_type_gallery">Galerías</string>
+    <string name="post_type_comment">Comentarios</string>
+
+    <!-- Social Platforms -->
+    <string name="platform_facebook_page">Facebook Page</string>
+    <string name="platform_facebook_group">Facebook Group</string>
+    <string name="platform_instagram">Instagram</string>
+    <string name="platform_x_twitter">X / Twitter</string>
+    <string name="platform_threads">Threads</string>
+    <string name="platform_reddit">Reddit</string>
+
+    <!-- Campaign Status -->
+    <string name="status_draft">Borrador</string>
+    <string name="status_active">Activa</string>
+    <string name="status_paused">Pausada</string>
+    <string name="status_completed">Finalizada</string>
+    <string name="status_inactive">Eliminada</string>
+
+    <!-- Content Status -->
+    <string name="status_content_draft">Borrador</string>
+    <string name="status_content_ready">Listo</string>
+    <string name="status_content_scheduled">Programado</string>
+    <string name="status_content_published">Publicado</string>
+    <string name="status_content_failed">Fallido</string>
+
+    <!-- Scheme Status -->
+    <string name="status_scheme_pending">Pendiente</string>
+    <string name="status_scheme_approved">Aprobado</string>
+    <string name="status_scheme_rejected">Rechazado</string>
+
+</resources>

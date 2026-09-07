@@ -1,0 +1,34 @@
+<!--
+  ~ Copyright (c) 2026. EJS Studios. Todos los derechos reservados.
+  ~ Este código fuente es propiedad de EJS Studios y está protegido por las leyes de derechos de autor.
+  ~ No se permite la copia, distribución, modificación o uso de este código fuente, total o parcialmente, sin
+  ~ el consentimiento previo y por escrito de EJS Studios.
+  ~
+  ~ Cualquier uso no autorizado de este código fuente será perseguido legalmente según las leyes aplicables.
+  ~
+  ~ Para obtener una licencia de uso, contacta a: info@ejsstudios.com
+  -->
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.SocialHubAI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MyApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="postSplashScreenTheme">@style/Theme.SocialHubAI</item>
+    </style>
+</resources>
