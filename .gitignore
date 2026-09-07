@@ -1,15 +1,21 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+# Ignore everything by default
+/*
+
+# Allow these specific files/folders
+!README.md
+!app/
+!build.gradle.kts
+!settings.gradle.kts
+!gradle.properties
+!.gitignore
+
+# Inside app/, ignore build and other generated files
+app/build/
+app/*.iml
+app/local.properties
+app/google-services.json
+
+# Ignore sensitive keys even if unignored by mistake
+/Keys/
+*.jks
+*.keystore
