@@ -12,13 +12,6 @@
 <resources>
     <string name="app_name">SocialHub AI</string>
 
-    <string name="facebook_app_id">1106970931502690</string>
-    <string name="fb_login_protocol_scheme">fb1106970931502690</string>
-    <string name="facebook_client_token">658093b7491e632dbd17473d2284d8ee</string>
-    <string name="web_client_id" translatable="false">983603226115-uode1lj44gnf3785qb4k6i00ejlr95vq.apps.googleusercontent.com</string>
-
-    <string name="reddit_client_id">Bshv30z_I6rV1uYQ3-L_Sw</string>
-    <string name="reddit_redirect_uri">socialhub://reddit-auth</string>
 
     <string name="default_notification_channel_id" translatable="false">default_notification_channel_id</string>
 
