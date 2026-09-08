@@ -27,21 +27,7 @@ plugins {
     id("com.google.firebase.crashlytics")
 }
 
-android {
-    signingConfigs {
-        getByName("debug") {
-            storeFile = file("C:\\StudioProjects\\socialhub\\Keys\\release")
-            storePassword = "Caracas123."
-            keyPassword = "Caracas123."
-            keyAlias = "ejsstudios"
-        }
-        create("release") {
-            storeFile = file("C:\\StudioProjects\\socialhub\\Keys\\release")
-            storePassword = "Caracas123."
-            keyPassword = "Caracas123."
-            keyAlias = "ejsstudios"
-        }
-    }
+android {  
     namespace = "com.ejsstudios.socialhub"
     compileSdk {
         version = release(37)
